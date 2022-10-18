@@ -10,10 +10,34 @@ body {
 header {
     position: relative;
     padding: 1rem;
+    display: flex;
+    justify-content: space-between;
 }
 
+header a {
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+}
+
+header b {
+    margin-top: 1.2rem;
+    display: flex;
+}
 nav a {
     color: black;
-    font-size: 30px;
     text-decoration: none;
+    text-align: center;
 }
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav li {
+    font-size: 20px;
+    display: inline;
+    margin-left: .5rem;
+}
+
