@@ -82,7 +82,7 @@ nav p {
 
 .home_txt2 {
     position: absolute;
-    bottom: 5px;
+    bottom: 20rem;
     right: 20px;
     text-align: end;
     font-size: 30px;
@@ -96,4 +96,46 @@ nav p {
     width: 93%;
     border: 0;
     background: black;
+}
+
+.about-line {
+    height: 5px;
+    width: 60%;
+    margin-left: 210px;
+    border: 0;
+    background: black;
+}
+
+.about_us {
+    margin-left: 16rem;
+    font-size: 45px;
+}
+
+.about_us_txt {
+    margin-left: 16rem;
+    margin-right: 40rem;
+    font-size: 20px
+}
+
+.about_us_txt1 {
+    width: 30%;
+    margin-left: 27%;
+    margin-top: 88px;
+    font-size: 20px;
+}
+
+.about_us_txt2 {
+    margin: 25%;
+    font-size: 20px;
+}
+.about_us_img1 {
+    float: left;
+    width: 397px;
+}
+
+.about_us_img2 {
+    float: right;
+    width: 601px;
+    display: flex;
+    flex-direction: row-reverse;
 }
