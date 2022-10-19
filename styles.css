@@ -170,6 +170,7 @@ nav p {
 }
 
 .product_alignment {
+    font-size: 20px;
     display: table-caption;
 }
 
@@ -183,4 +184,45 @@ nav p {
     margin-right: 100px;
     border: 0;
     background: black;
+}
+
+
+.contact_us {
+    margin-left: 16rem;
+    font-size: 45px;
+    margin-top: 135px;
+}
+
+.contact_us_line {
+    height: 5px;
+    width: 60%;
+    margin-left: 210px;
+    border: 0;
+    background: black;
+}
+
+.contact_position {
+    display: flex;
+    flex-direction: column;
+    font-size: 30px;
+    font-weight: lighter;
+    margin-left: 30%;
+}
+
+.email_box {
+    border-style: solid;
+    width: 700px
+}
+
+.message_box {
+    border-style: solid;
+    height: 200px;
+    width: 700px;
+}
+
+.send_button {
+    background: rgb(170, 122, 33);
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
 }
