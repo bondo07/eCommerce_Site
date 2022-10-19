@@ -139,3 +139,48 @@ nav p {
     display: flex;
     flex-direction: row-reverse;
 }
+
+.our_products {
+    margin-left: 16rem;
+    font-size: 45px;
+}
+
+.our_products_line {
+    height: 5px;
+    width: 60%;
+    margin-left: 210px;
+    border: 0;
+    background: black;
+}
+
+.product_container {
+    display: grid;
+    grid-template-areas:
+        "top-l top top-r"
+        "mid-ml mid-mm mid-mr"
+        "bot-l bot bot-r";
+    align-items: center;
+    margin-left: 11.3%;
+}
+
+.product_image {
+    width: 398px;
+    height: 398px;
+    object-fit: cover;
+}
+
+.product_alignment {
+    display: table-caption;
+}
+
+.product_link {
+    display: flex;
+    justify-content: space-between;
+}
+
+.product_line {
+    height: 5px;
+    margin-right: 100px;
+    border: 0;
+    background: black;
+}
